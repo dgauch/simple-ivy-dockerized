@@ -9,7 +9,7 @@ An up to date Docker installation is needed to build and run this project. (see 
 
 ### How to run? ###
 
-* Clone this project to a directory on your workstation. 
+* Clone this project to a directory on your workstation with `git clone https://github.com/dgauch/simple-ivy-dockerized.git`
 * Build the Axon.ivy project with `mvn clean install`
 * Build the Docker image with `./docker-build.sh`
 * Run the Docker image with `./docker-run.sh`
